@@ -7,6 +7,59 @@
   pointer-events: none;
 }
 
+.content-body-wrap {
+  margin-left: 18px;
+}
+.event-cards-body {
+  margin-top: 20px;
+}
+
+
+/* HOME */
+
+.home-background-img {
+  background-image: url('./pages/images/festivals-events_whitespace.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  max-height: 500px;
+  
+}
+.crimson-font {
+  font-family: 'Crimson Text', serif;
+}
+.home-title {
+  font-size: 48px;
+}
+.home-subtitle {
+  font-size: 40px;
+}
+.home-search-box {
+  width: 100%;
+  max-width: 65vw;
+  border: 0.2px solid #fc9d6f;
+  outline: none;
+  box-shadow: 0px 0px 5px 1px #fc9d6f;
+  transition: 0.6s all ease-in-out;
+}
+.home-search-box:focus {
+  box-shadow: 0px 0px 15px 5px #fc8d56;
+}
+
+.home-search-button {
+ background-color: #ec5b13;
+ font-size: 20px;
+ font-style: italic;
+ color: white;
+ border: 1px solid red;
+ border-radius: 5px;
+}
+
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
